@@ -18,4 +18,4 @@ In [my recent post for freeCodeCamp](https://www.freecodecamp.org/news/how-vue-c
 
 I hope you enjoy the post. Let me know on [LinkedIn](https://www.linkedin.com/in/barrowbrian/) or [BlueSky]() what you think!
 
-https\://www\.freecodecamp.org/news/how-vue-composables-work/
+<https://www.freecodecamp.org/news/how-vue-composables-work/>
