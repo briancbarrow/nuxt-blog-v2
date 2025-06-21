@@ -3,10 +3,11 @@ title: Understanding Vue Composables
 description: Learn how to use Vue composables to simplify and reuse stateful
   logic in your Vue 3 apps, with practical examples and tips for real-world
   projects.
-img: /how-vue-composables-work.png
+img: how-vue-composables-work.png
 alt: understanding vue composables
 date: 06-11-2025
 published: true
+tags: []
 ---
 
 In [my recent post for freeCodeCamp](https://www.freecodecamp.org/news/how-vue-composables-work/), I looked at how Vue Composables can be used to simplify and reuse stateful logic across your Vue 3 applications. While the documentation covers things well, I dive a little deeper with some examples that demonstrate:
