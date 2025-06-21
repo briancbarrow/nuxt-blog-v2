@@ -1,0 +1,97 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+/* .blog-post a {
+    @apply text-blue-400 underline;
+} */
+
+.prose {
+  --prose-color: var(--color-gray-700);
+  --prose-heading-color: var(--color-gray-950);
+  --prose-strong-color: var(--color-gray-950);
+  --prose-link-color: var(--color-gray-950);
+  --prose-code-color: var(--color-gray-950);
+  --prose-marker-color: #36415340;
+  --prose-link-underline-color: var(--color-sky-400);
+  --prose-th-borders: var(--color-gray-300);
+  --prose-td-borders: var(--color-gray-200);
+  --prose-hr-color: #0307120d;
+  --prose-blockquote-border-color: var(--color-gray-300);
+  color: var(--prose-color);
+  font-size: var(--text-md);
+  line-height: 2;
+}
+
+.prose h2 {
+  font-size: var(--text-xl);
+  letter-spacing: -0.025em;
+  color: var(--prose-code-color);
+  line-height: 1.55556;
+  font-weight: var(--font-weight-semibold);
+  margin-top: calc(var(--spacing) * 10);
+  margin-bottom: var(--spacing);
+}
+
+.prose pre {
+  background-color: #1a202c; /* Tailwind gray-900 */
+  color: #f8fafc; /* Tailwind gray-50 */
+  border-radius: 0.375rem; /* rounded-md */
+  padding: 1rem;
+  overflow-x: auto;
+  font-family: "Fira Mono", "Menlo", "Monaco", "Consolas", monospace;
+  font-size: 1rem;
+  box-shadow: 0 2px 8px 0 #0000000d;
+  margin: 1rem 0;
+}
+
+.prose code:not(pre code) {
+  background-color: #f3f4f6; /* Tailwind gray-100 */
+  color: #be185d; /* Tailwind pink-700 */
+  border-radius: 0.25rem;
+  font-size: 0.95em;
+}
+
+.prose a {
+  color: #0ea5e9; /* Tailwind sky-500 */
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+.prose a:hover {
+  color: #0369a1; /* Tailwind sky-700 */
+}
+
+.prose h1,
+.prose h2,
+.prose h3 {
+  font-weight: 800;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  letter-spacing: -0.02em;
+}
+.prose img {
+  margin: 2rem auto;
+
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 8px 0 #0000000d;
+}
+
+.prose blockquote {
+  border-left: 4px solid #0ea5e9;
+  background: #f0f9ff;
+  padding: 0.5em 1em;
+  color: #334155;
+  font-style: italic;
+  margin: 1.5em 0;
+}
+.prose ul,
+.prose ol {
+  padding-left: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+.prose li {
+  list-style: disc;
+}
