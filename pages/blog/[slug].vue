@@ -86,10 +86,12 @@ useHead({
         }}
       </p>
 
-      <p class="mt-8 text-xl leading-8 text-gray-500">
+      <p v-if="page.description" class="mt-8 text-xl leading-8 text-gray-500">
         {{ page.description }}
       </p>
-      <div class="mx-auto mt-6 prose prose-lg text-gray-500 markdown-body">
+      <div
+        class="mx-auto px-4 md:px-0 mt-6 prose prose-lg text-gray-500 markdown-body"
+      >
         <ContentRenderer :value="page" />
       </div>
     </main>
