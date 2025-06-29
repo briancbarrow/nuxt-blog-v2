@@ -140,7 +140,7 @@ update msg model =
                         ( newModel, _ ) =
                             update ToggleDirection
                                 { model
-                                    | time = newTime
+                                    | time = 0
                                     , lastPosix = now
                                     , running = False
                                 }
